@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-18T09:44:19 UTC" name="Page Object test example" finished-at="2022-06-18T09:45:39 UTC" duration-ms="79785">
+    <groups>
+    </groups>
+    <test started-at="2022-06-18T09:44:19 UTC" name="test-1" finished-at="2022-06-18T09:45:39 UTC" duration-ms="79785">
+      <class name="com.orangeHRM.test.OrangeHRM_AddUser">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.orangeHRM.test.OrangeHRM_AddUser@4d5650ae]" started-at="2022-06-18T09:44:19 UTC" name="SetUp" finished-at="2022-06-18T09:44:19 UTC" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.test.OrangeHRM_AddUser@4d5650ae]" started-at="2022-06-18T09:44:19 UTC" name="initializeTestBaseSetup" finished-at="2022-06-18T09:44:28 UTC" duration-ms="8821" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangeHRM.test.OrangeHRM_AddUser@4d5650ae]" started-at="2022-06-18T09:44:28 UTC" name="setUp" finished-at="2022-06-18T09:44:28 UTC" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="urlTest(java.lang.String,java.lang.String)[pri:5, instance:com.orangeHRM.test.OrangeHRM_AddUser@4d5650ae]" started-at="2022-06-18T09:44:28 UTC" name="urlTest" data-provider="Login" finished-at="2022-06-18T09:44:34 UTC" duration-ms="6584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangeHRM.test.OrangeHRM_AddUser@4d5650ae]" started-at="2022-06-18T09:44:34 UTC" name="tearDown" finished-at="2022-06-18T09:44:34 UTC" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=urlTest status=SUCCESS method=OrangeHRM_AddUser.urlTest(java.lang.String,java.lang.String)[pri:5, instance:com.orangeHRM.test.OrangeHRM_AddUser@4d5650ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="addUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:com.orangeHRM.test.OrangeHRM_AddUser@4d5650ae]" started-at="2022-06-18T09:44:34 UTC" name="addUser" data-provider="addUsers" finished-at="2022-06-18T09:44:53 UTC" duration-ms="18641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fiona Grace]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[grandal]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[grandal@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[grandal@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangeHRM.test.OrangeHRM_AddUser@4d5650ae]" started-at="2022-06-18T09:44:53 UTC" name="tearDown" finished-at="2022-06-18T09:44:53 UTC" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addUser status=SUCCESS method=OrangeHRM_AddUser.addUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:com.orangeHRM.test.OrangeHRM_AddUser@4d5650ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="addUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:com.orangeHRM.test.OrangeHRM_AddUser@4d5650ae]" started-at="2022-06-18T09:44:53 UTC" name="addUser" data-provider="addUsers" finished-at="2022-06-18T09:45:11 UTC" duration-ms="17812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ESS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fiona Grace]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fclarson]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[userAdd@1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[userAdd@1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangeHRM.test.OrangeHRM_AddUser@4d5650ae]" started-at="2022-06-18T09:45:11 UTC" name="tearDown" finished-at="2022-06-18T09:45:11 UTC" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addUser status=SUCCESS method=OrangeHRM_AddUser.addUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:com.orangeHRM.test.OrangeHRM_AddUser@4d5650ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="addUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:com.orangeHRM.test.OrangeHRM_AddUser@4d5650ae]" started-at="2022-06-18T09:45:11 UTC" name="addUser" data-provider="addUsers" finished-at="2022-06-18T09:45:29 UTC" duration-ms="17810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ESS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fiona Grace]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[thuds123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[thuds@@@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[thuds@@@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangeHRM.test.OrangeHRM_AddUser@4d5650ae]" started-at="2022-06-18T09:45:29 UTC" name="tearDown" finished-at="2022-06-18T09:45:29 UTC" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addUser status=SUCCESS method=OrangeHRM_AddUser.addUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:com.orangeHRM.test.OrangeHRM_AddUser@4d5650ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LogOut()[pri:0, instance:com.orangeHRM.test.OrangeHRM_AddUser@4d5650ae]" started-at="2022-06-18T09:45:29 UTC" name="LogOut" finished-at="2022-06-18T09:45:37 UTC" duration-ms="8125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.test.OrangeHRM_AddUser@4d5650ae]" started-at="2022-06-18T09:45:37 UTC" name="tearDown" finished-at="2022-06-18T09:45:39 UTC" duration-ms="1668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangeHRM.test.OrangeHRM_AddUser -->
+    </test> <!-- test-1 -->
+  </suite> <!-- Page Object test example -->
+</testng-results>
